@@ -10,7 +10,7 @@ variable "namespace" {
 
 variable "appd_account_name" {
   type        = string
-  description = "The name of the AppDynamics account. This can be found in Settings > License > Account > Name."
+  description = "The name of the AppDynamics account. This value can be found in Settings > License > Account > Name."
 }
 
 variable "appd_controller_hostname" {
@@ -32,7 +32,7 @@ variable "appd_controller_ssl" {
 
 variable "appd_controller_key" {
   type        = string
-  description = "The key used for authorizing with the AppDynamics controller. This value can be found in"
+  description = "The key used for authorizing with the AppDynamics controller. This value can be found in Settings > License > Account > Access Key."
 }
 
 variable "app_name" {
