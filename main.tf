@@ -84,7 +84,7 @@ resource "appdynamics_db_collector" "main" {
   
   depends_on = [kubernetes_deployment.dbcollector]
   
-  name = "var.db_name
+  name = var.db_name
 
   agent_name = var.db_name
 
