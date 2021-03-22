@@ -88,7 +88,7 @@ resource "appdynamics_db_collector" "main" {
 
   agent_name = var.db_name
 
-  type = "MYSQL"
+  type = var.db_type
 
   hostname = var.db_hostname
   port     = var.db_port
