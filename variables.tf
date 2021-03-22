@@ -18,7 +18,7 @@ variable "appd_controller_hostname" {
   description = "The nostname of the AppDynamics controller."
 }
 
-variable "appd_controller_hostname" {
+variable "appd_controller_port" {
   type        = string
   default     = "443"
   description = "The port of the AppDynamics controller."
